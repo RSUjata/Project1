@@ -150,28 +150,26 @@ function HomePage() {
   </div>
 </div>
 
-
-
-
-
-
 <div className="w-full bg-white py-10 px-4 sm:px-10">
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 sm:gap-10">
     
     {/* Left Box - Trust Score */}
-    <div className="w-40 h-40 bg-gradient-to-br from-purple-500 to-blue-500 text-white rounded-2xl shadow-lg flex items-center justify-center text-center">
-      <h2 className="text-xl sm:text-xl font-bold">98%<br />Trust Score</h2>
+    <div className="w-40 h-40 bg-gradient-to-br from-purple-500 to-blue-500 text-white rounded-2xl shadow-lg flex items-center justify-center text-center border-l-8 border-black">
+      <h2 className="text-4xl font-italic font-optimaPro text-center">98%<br />Trust Score</h2>
     </div>
 
     {/* Right Text - Business Stats */}
     <div className="w-full md:flex-1 text-center md:text-left">
       <p className="text-lg sm:text-xl text-gray-800 font-medium leading-relaxed">
-        Powering <span className="text-blue-600 font-bold">3,00+</span> businesses in <span className="text-blue-600 font-bold">30+</span> industries for <br/> sustained competitive growth & innovation.
+        Powering <span className="text-blue-600 font-bold">3,00+</span> businesses in <span className="text-blue-600 font-bold">30+</span> industries for <br /> sustained competitive growth & innovation.
       </p>
     </div>
 
   </div>
 </div>
+
+
+
 
 
       <ServicesSection />

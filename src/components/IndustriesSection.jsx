@@ -85,11 +85,11 @@ const IndustriesSection = () => {
             </p>
           </div>
           <button
-            onClick={() => navigate('/industries')}
-            className="bg-gray-200 text-gray-800 font-semibold px-14 py-6 rounded-full hover:bg-gray-300 text-3xl shadow-lg transition-all duration-300 transform hover:scale-110"
-          >
-            View All
-          </button>
+          onClick={() => navigate('/services')}
+          className="mt-8 md:mt-0 text-3xl px-14 py-6 bg-gradient-to-r from-gray-300 to-gray-500 text-white rounded-full shadow-xl hover:bg-gradient-to-r hover:from-gray-400 hover:to-gray-600 hover:shadow-2xl transform hover:scale-110 transition-all duration-300"
+        >
+          View All
+        </button>
         </div>
 
         {/* List + Content */}
