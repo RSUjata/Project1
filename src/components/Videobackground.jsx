@@ -65,18 +65,18 @@ function ImageSlider() {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 w-full h-full flex items-center justify-between px-8 md:px-16 transition-opacity duration-1000 ease-in-out ${
+          className={`absolute inset-0 w-full h-full flex items-center justify-between px-4 md:px-16 transition-opacity duration-1000 ease-in-out ${
             currentIndex === index ? 'opacity-100 z-10' : 'opacity-0 z-0'
           }`}
         >
           {/* Left - Text */}
-          <div className="text-white max-w-xl space-y-6 animate-fade-in-up px-12">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold leading-tight text-left">
+          <div className="text-white max-w-xl space-y-6 animate-fade-in-up px-4 md:px-12">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight text-left">
               {slide.text}
             </h1>
             <button
               onClick={handleButtonClick}
-              className="px-8 py-4 bg-white text-black text-lg md:text-xl rounded-full hover:text-purple-600 border border-black transition duration-200"
+              className="px-6 py-3 bg-white text-black text-lg md:text-xl rounded-full hover:text-purple-600 border border-black transition duration-200"
             >
               Get in Touch Now
             </button>
@@ -87,7 +87,7 @@ function ImageSlider() {
             <img
               src={slide.image}
               alt="Slide"
-              className="w-full h-full object-contain object-right"
+              className="w-full h-full object-contain object-center"
             />
           </div>
         </div>
@@ -107,7 +107,7 @@ function ImageSlider() {
                 >
                   <div className="flex flex-col items-start space-y-4">
                     <div
-                      className={`font-extrabold transition-colors duration-300 text-2xl sm:text-3xl lg:text-4xl ${
+                      className={`font-extrabold transition-colors duration-300 text-xl sm:text-2xl lg:text-3xl ${
                         isActive
                           ? 'text-white'
                           : 'text-gray-300 group-hover:text-white'
@@ -117,7 +117,7 @@ function ImageSlider() {
                     </div>
 
                     <div
-                      className={`text-lg sm:text-xl transition-colors duration-300 ${
+                      className={`text-sm sm:text-lg transition-colors duration-300 ${
                         isActive
                           ? 'text-white'
                           : 'text-gray-400 group-hover:text-white'

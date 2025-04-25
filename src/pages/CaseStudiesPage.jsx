@@ -12,8 +12,8 @@ const CaseStudiesPage = () => {
 
             {/* Hero Section */}
             <div className="bg-black text-white min-h-[40vh] flex flex-col items-center justify-center px-4 text-center relative">
-                <h1 className="text-6xl sm:text-7xl font-extrabold mb-6 tracking-tight">Case Studies</h1>
-                <p className="text-xl sm:text-2xl text-gray-300 max-w-xl">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 tracking-tight">Case Studies</h1>
+                <p className="text-lg sm:text-xl text-gray-300 max-w-5xl px-4">
                     Explore our success stories and how we helped businesses achieve their goals.
                 </p>
             </div>
@@ -26,7 +26,9 @@ const CaseStudiesPage = () => {
             </div>
 
             {/* Case Studies Section */}
-            <CaseStudiesSection />
+            <div className="pt-12 mx-auto max-w-7xl px-4">
+                <CaseStudiesSection />
+            </div>
 
             {/* White Gap between Case Studies and Footer */}
             <div className="bg-white py-16"></div>
